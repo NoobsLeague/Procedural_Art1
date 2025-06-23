@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4893140378749798496
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4893140378749798492}
+  - component: {fileID: 4893140378749798498}
+  - component: {fileID: 4893140378749798497}
+  - component: {fileID: 7602469554590742846}
+  m_Layer: 0
+  m_Name: type3 Variant
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4893140378749798492
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4893140378749798496}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 17.334358, y: 0.00000008940697, z: -12.487156}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4893140378749798498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4893140378749798496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c601806f2ae6db4b994fc92779c19fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BuildKey: 32
+  BuildOnStart: 0
+--- !u!114 &4893140378749798497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4893140378749798496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fd24ab55c2f53c4c87fe962d45559ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  seed: 0
+--- !u!114 &7602469554590742846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4893140378749798496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2729117f480c0c648814d4703079b93d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buildDelay: 0.1
+  Width: 5
+  Depth: 5
+  wallPrefabs:
+  - {fileID: 670920124266800326, guid: 49bf438aac4c63f47aaf279cf84add0c, type: 3}
+  - {fileID: 7406105615049352784, guid: 9bf8bee589be7d647982754941dbeb5a, type: 3}
+  - {fileID: 3433681882246556566, guid: 784f8039299af05498a070fc77f61476, type: 3}
+  windowPrefabs:
+  - {fileID: 8820644379650112236, guid: 5b2d9304a5bffd2459975b2dd684feb6, type: 3}
+  - {fileID: 3991085149429869659, guid: 36574000d41c87148acb7ca4fd5e155a, type: 3}
+  - {fileID: 755763267958007528, guid: 4646a2a540cf4174cb3449b0d4f72590, type: 3}
+  - {fileID: 3238144244795302997, guid: 5f930e3321c817f4c939f2bf09bf68bd, type: 3}
+  roofStyle:
+  - {fileID: 4008560257288283775, guid: b4d8790845ddb8b42ac6e4a0fedc1fd0, type: 3}
+  desiredHeight: 16
+  forceFlatRoof: 1
+  cornerPrefab: {fileID: 7917680827319332608, guid: 4c960562f82cd6947a5659d031b7ecb5, type: 3}

@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4381463796620167503
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3208521508839111387}
+  - component: {fileID: 6358106990646193958}
+  m_Layer: 0
+  m_Name: type4 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3208521508839111387
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4381463796620167503}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 39.04836, y: 0, z: 7.5792646}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6358106990646193958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4381463796620167503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7de929d12aa033c4380c9b1965a5c500, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buildDelay: 0.1
+  Width: 10
+  Depth: 10
+  wallPrefabs:
+  - {fileID: 670920124266800326, guid: 49bf438aac4c63f47aaf279cf84add0c, type: 3}
+  - {fileID: 7406105615049352784, guid: 9bf8bee589be7d647982754941dbeb5a, type: 3}
+  windowPrefabs:
+  - {fileID: 755763267958007528, guid: 4646a2a540cf4174cb3449b0d4f72590, type: 3}
+  - {fileID: 5234600099492058142, guid: 95a4f3fd2708e7c4a869c38e7443d451, type: 3}
+  roofStyle:
+  - {fileID: 4008560257288283775, guid: b4d8790845ddb8b42ac6e4a0fedc1fd0, type: 3}
+  desiredHeight: 20
+  forceFlatRoof: 1
+  cornerPrefab: {fileID: 8953028171088441682, guid: 26002ea83e11af14585963c6c2435db0, type: 3}
+  neonPrefabs:
+  - {fileID: 7679570500344892475, guid: fc5b506c53a17354d98e895b1ad77775, type: 3}
+  - {fileID: 3731773224083608152, guid: c44c929a50cad0a4aa58aa0a60e71a0d, type: 3}
+  - {fileID: 8837162814613432935, guid: ce386cf114dae524e8b1fc850b119059, type: 3}
+  - {fileID: 3088879257182605309, guid: 74b5e84d578c75f428c64d47f806b53a, type: 3}
+  - {fileID: 730835051546879500, guid: 38ca3d0c250e0014da2022bb204f53d7, type: 3}
+  - {fileID: 3374701386329978137, guid: dba6db20ade25e74cad33721daa1e992, type: 3}
